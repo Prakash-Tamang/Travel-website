@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-white
+{
+    color: #FFF;
+}
+.text-orange{
+    color: #DF6951;
+}
+.text-blue{
+    color: #181E4B;
+}
+.text-secondary-dark{
+    color: #5E6282;
+}
+.bg-orange{
+    background: #DF6951;
+}
+.bg-secondary-dark{
+    background: #868686;
+}
+.bg-light{
+    background: #EEF;
+}
+.container{
+    padding: 0px 190px;
+}
+h1{
+    font-family: Poppins;
+font-size: 58.506px;
+font-style: normal;
+font-weight: 700;
+line-height: 67.908px; /* 116.071% */
+}
+h5{
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.8px;
+text-transform: uppercase;
+}
+h6{
+    font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 124.5%; /* 19.92px */
+}
+.paragraph{
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+}
+header{
+    background: url('images/Rectangle\ 19290.png');
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    align-items: center;
+}
+.nav-menu{
+    display: inline-flex;
+    list-style: none;
+    gap: 50px;
+}
+.logo{
+    text-align: center;
+font-family: Volkhov;
+font-size: 31.622px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+.nav-link{
+    font-family: Volkhov;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.btn{
+    font-family: Volkhov;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 10px;
+border: none;
+width: max-content;
+}
+.para-c{
+    text-align: center;
+}
+.nav-direct{
+    display: flex;
+    border-radius: 5.224px;
+background: rgba(243, 243, 243, 0.60);
+backdrop-filter: blur(17.760618209838867px);
+justify-content: space-between;
+align-items: center;
+padding: 20px 30px;
+
+}
+.vl{
+    width: 3px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 25px;
+background: #D0D0D0;
+}
+.direc-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-body{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 500px 150px 300px;
+    gap: 10px;
+}
+.btn-sub{
+    display: inline-flex;
+padding: 16px 57.561px 15.416px 57px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border: none;
+text-align: center;
+font-family: Poppins;
+font-size: 16.716px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.partners{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.services-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    gap: 10px;
+}
+.services-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px 100px;
+    gap: 30px;
+}
+.services-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.aero{
+    border-radius: 36px;
+background: var(--white, #FFF);
+box-shadow: 0px 1.85185px 3.14815px 0px rgba(0, 0, 0, 0.00), 0px 8.14815px 6.51852px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852px 25.48148px 0px rgba(0, 0, 0, 0.01), 0px 64.81481px 46.85185px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+position: relative;
+}
+.card-img{
+    width: 72px;
+height: 72px;
+flex-shrink: 0;
+}
+.illus-body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 50px;
+}
+.illus-body-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.special-package-illutration{
+    padding: 80px 0px;
+}
+.book-trip{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 150px 50px 180px;
+    gap: 100px;
+}
+.book-trip-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.booking-cards{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
+.book-card{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.book-card-text{
+    display: flex;
+    flex-direction: column;
+}
+.europe-sightseeing-tour{
+    display: flex;
+    padding: 80px 80px 30px 150px;
+    justify-content: space-between;
+    position: relative;
+    z-index: -1;
+}
+.context-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.paris-img{
+    position: absolute;
+    top: 430px;
+    z-index: 1;
+}
+.explore{
+    display: flex;
+    flex-direction: row;
+}
+.tour-package{
+    padding-top: 80px;
+}
+.tour-package-head{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.tour-package-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
